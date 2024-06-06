@@ -1,0 +1,68 @@
+#bmr-calculation {
+    background: #ffffff;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#bmr-calculation form {
+    display: flex;
+    flex-direction: column;
+}
+
+#bmr-calculation label {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+#bmr-calculation input[type="text"], 
+#bmr-calculation select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#bmr-calculation button {
+    background: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#bmr-calculation button:hover {
+    background: #45a049;
+}
+
+/* BMR Result Section */
+#bmr-result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#bmr-result h2 {
+    font-size: 1.5em;
+    color: #333333;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    #bmr-calculation {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #bmr-calculation input[type="text"], 
+    #bmr-calculation select, 
+    #bmr-calculation button {
+        font-size: 0.9em;
+    }
+}
